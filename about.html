@@ -3,25 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Westlife</title>
+    <title>Westlife | About</title>
+    <meta name="description" content="Westlife Official Website" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <!-- HEADER -->
-    <header>
-      <nav>
+    <header class="main-header">
+      <nav class="nav main-nav">
         <ul>
           <li><a href="index.html">HOME</a></li>
           <li><a href="about.html">ABOUT</a></li>
           <li><a href="store.html">STORE</a></li>
         </ul>
       </nav>
-      <hr />
-      <h1>Westlife</h1>
+      <h1 class="band-name band-name-large">Westlife</h1>
     </header>
 
     <!-- SECTION -->
-    <section>
-      <h2>About Westlife</h2>
+    <section class="content-section container">
+      <h2 class="section-header">About Westlife</h2>
+      <img
+        src="images/band.jpg"
+        alt="westlife headshots"
+        width="400"
+        height="250"
+        class="about-band-image"
+      />
       <p>
         Westlife are an Irish pop group formed in Dublin in 1998. The group
         consists of members Shane Filan, Mark Feehily, Kian Egan, and Nicky
@@ -42,12 +50,7 @@
         six-year split. After reforming in 2018, the quartet released the studio
         albums Spectrum (2019) and Wild Dreams (2021).
       </p>
-      <img
-        src="images/band.jpg"
-        alt="westlife headshots"
-        width="400"
-        height="250"
-      />
+
       <p>
         Kian Egan, Mark Feehily, and Shane Filan, all schoolmates at Summerhill
         College in Sligo, Ireland, participated in a school production of Grease
@@ -63,40 +66,42 @@
     </section>
 
     <!-- FOOTER -->
-    <footer>
-      <h3>&copy; 2025 Westlife</h3>
-      <ul>
-        <li>
-          <a href="https://www.apple.com" target="_blank">
-            <img
-              src="images/applemusic.png"
-              alt="spplemusic logo"
-              width="35"
-              height="35"
-            />
-          </a>
-        </li>
-        <li>
-          <a href="https://www.spotify.com" target="_blank">
-            <img
-              src="images/spotify.png"
-              alt="spotify logo"
-              width="35"
-              height="35"
-            />
-          </a>
-        </li>
-        <li>
-          <a href="https://www.youtube.com" target="_blank">
-            <img
-              src="images/youtube.png"
-              alt="youtube logo"
-              width="35"
-              height="35"
-            />
-          </a>
-        </li>
-      </ul>
+    <footer class="main-footer">
+      <div class="container main-footer-container">
+        <h3 class="footer-title">&copy; 2025 Westlife</h3>
+        <ul class="nav footer-nav">
+          <li>
+            <a href="https://www.apple.com" target="_blank">
+              <img
+                src="images/applemusic.png"
+                alt="spplemusic logo"
+                width="40"
+                height="40"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.spotify.com" target="_blank">
+              <img
+                src="images/spotify.png"
+                alt="spotify logo"
+                width="40"
+                height="40"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com" target="_blank">
+              <img
+                src="images/youtube.png"
+                alt="youtube logo"
+                width="40"
+                height="40"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>

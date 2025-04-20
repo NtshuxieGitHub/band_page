@@ -1,0 +1,138 @@
+/* Import Raleway font - these linkes are from google fonts*/
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400");
+/* @import url("https://fonts.googleapis.com/css?family=Metal+Mania"); */
+
+/* Import downloaded fonts */
+@font-face {
+  font-family: "Booter";
+  src: url("fonts/BOOTERZZ.ttf") format("tff"),
+    url("fonts/BOOTERZO.ttf") format("tff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Apply general styles to all the elements */
+* {
+  box-sizing: border-box; /* Makes i such that the size of elements determined by padding, margin and content size */
+  font-family: Raleway;
+  color: #c8c0c0;
+}
+
+/* Remove the default margin and padding from the body element */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+/* Remove the margin between the image and the top of the page */
+.nav ul {
+  margin: 0;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  display: inline-block;
+  padding: 0.9em;
+  color: #c8c0c0;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: #ff006a;
+  font-weight: bold;
+}
+
+.main-nav {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: lighter;
+  border-bottom: #c8c0c0 1px solid;
+}
+
+.main-nav li {
+  padding: 0 5%;
+}
+
+/* Style the header by adding a background image with a color hue */
+.main-header {
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url("images/homeimage1.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom: 30px;
+}
+
+/* Style band name */
+.band-name {
+  text-align: center;
+  margin: 0;
+  font-size: 4em;
+  font-family: "Booter";
+  font-weight: normal;
+  color: #c8c0c0;
+}
+
+/* Make size of the band name larger */
+.band-name-large {
+  font-size: 9em;
+}
+
+.content-section {
+  margin: 2em;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+
+.section-header {
+  font-family: "Booter";
+  font-weight: normal;
+  color: #c8c0c0;
+  text-align: center;
+  font-size: 2.6em;
+}
+
+.about-band-image {
+  float: right;
+  height: 320px;
+  width: 320px;
+  object-fit: cover;
+  margin: 15px;
+  border-radius: 20px;
+}
+
+.footer-title {
+  color: rgb(28, 28, 28);
+  text-align: center;
+  margin: 0;
+  font-size: 2.5em;
+  font-family: "Booter";
+  font-weight: normal;
+}
+
+.main-footer {
+  background-color: white;
+  padding: 0.25em 0;
+}
+
+.main-footer-container {
+  display: flex;
+  align-items: center;
+}
+
+.main-footer-container ul {
+  flex-grow: 1;
+  text-align: end;
+}
+
+.footer-nav li {
+  padding: 0 0.5em;
+}

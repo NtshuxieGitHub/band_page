@@ -219,3 +219,137 @@ body {
   border: 2px solid #9f6a80;
   background-color: rgba(255, 255, 255, 0.1);
 }
+
+.shop-item {
+  margin: 50px;
+}
+
+.shop-item-title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.shop-item-image {
+  height: 200px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.shop-item-details {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.shop-item-price {
+  flex-grow: 1;
+}
+
+.shop-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cart-header {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.cart-column {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid white;
+  margin-right: 1.5em;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.cart-row {
+  display: flex;
+}
+
+.cart-item {
+  width: 45%;
+}
+
+.cart-price {
+  width: 20%;
+  font-size: 1.2em;
+}
+
+.cart-quantity {
+  width: 35%;
+}
+
+.cart-item-title {
+  margin-left: 0.5em;
+  font-size: 1.2em;
+}
+
+.cart-item-image {
+  width: 75px;
+  height: auto;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+
+.btn-red {
+  background-color: #9f6a80;
+  border: none;
+  border-radius: 15px;
+  font-weight: bold;
+  color: white;
+}
+
+.btn-red:hover {
+  border: 2px solid #9f6a80;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.cart-quantity-input {
+  height: 34px;
+  width: 50px;
+  border-radius: 5px;
+  border: 1px solid #9f6a80;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 0;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 25px;
+}
+
+.cart-row:last-child {
+  border-bottom: 1px solid white;
+}
+
+.cart-row:last-child .cart-column {
+  border: none;
+}
+
+.cart-total {
+  text-align: end;
+  margin-top: 1em;
+  margin-right: 1em;
+}
+
+.cart-total-title {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: white;
+  margin-right: 20px;
+}
+
+.cart-total-price {
+  font-size: 1.1em;
+}
+
+.btn-checkout {
+  display: block;
+  margin: 40px auto 80px auto; /*Order: top, left, bottom, right*/
+  font-size: 1.7em;
+}

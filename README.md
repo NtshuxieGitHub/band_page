@@ -4,10 +4,10 @@ A simple HTML/CSS-based webpage celebrating the iconic Irish boy band, Westlife.
 
 ## Features
 
-- About Westlife
-- Image of the band
-- More about Westlife
-- Footer with copyright and social media links
+- Home page featuriing tour dates
+- About page featuring details about the band
+- Store page with Albums, merch and a cart - fully interactive: you can add items, remove items, update quantity, update tota cost, and interact with the cehckout buttom
+- UPDATE FEATURE TO WORK ON: Add Sign Up, Sign In page for user purchases with Card Payment Systems. Integrate with a backend system such as a database to store login details and order details
 
 ## Built With
 
